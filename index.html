@@ -10,10 +10,10 @@
   <header> <!--Esta es una etiqueta semantica de cabecera-->
     <nav> <!--Barra de navegación-->
         <ul> <!--Lista desordenada-->
-            <li> <a href="">Nosotros</a> </li>
-            <li> <a href="">Promociones</a> </li>
-            <li> <a href="">Menu</a> </li>
-            <li> <a href="">Contacto</a> </li>
+            <li> <a href="#nosotros">Nosotros</a> </li>
+            <li> <a href="#promociones">Promociones</a> </li>
+            <li> <a href="#menu">Menu</a> </li>
+            <li> <a href="#contacto">Contacto</a> </li>
         </ul>   
     </nav> 
   </header>  
@@ -21,22 +21,37 @@
   <!--Innformacuón principal de mi página-->
   <main>
     <!--Sección sobre nosotros-->
-    <article>
+    <section id="nosotros">
         <h1>Cafeteria Muffin</h1>
         <p>Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan, crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar todos los días.</p>
-    </article>
+    </section>
     
      <!--Sección sobre promociones-->  
-    <section>
+    <section id="promociones">
         <h2>Promociones</h2>
+        <ul>
+            <li><strong>2x1</strong> En Muffins los Lunes y Miercoles</li>
+            <li><strong>Combo super muffin:</strong> Cafe + Pan por $55</li>
+            <li>10% de descuento en pasteles de temporada</li>
+        </ul>
     </section>
 
    <!--Sección sobre menu-->
-    <section>
+    <section id="menu">
         <h2>Menu</h2>
+        <!--Tarjeta de postre-->
+        <div>
+            <img src="https://cocinalocal.cl/wp-content/uploads/2021/08/pie-de-limon.jpg" alt="Imagen de un pay de limon">
+            <h3>Pay de limon</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet perspiciatis ducimus ipsam dicta, expedita culpa dolorem numquam, rerum tenetur placeat? Ipsam dolorem nihil minus necessitatibus exercitationem sit nesciunt ratione! </p>
+            <p> <strong> $280 </strong> </p>
+            <button>Agregar</button>
+
+        </div>
+
     </section>
 
-   <!--Sección sobre contacto-->
+   <!--Sección sobre receta-->
     <section>
         <h2>Receta del abuela</h2>
         <h2>Muffin de zanahoria</h2>
@@ -52,13 +67,22 @@
 
   <!--Pie de página-->
   <footer>
+    <!--Seccion de contacto-->
+    <section>
+        <h2>Contacto</h2>
+        <p>Visitanos en nuestra sucursal...</p>
+    </section>
+
     <ul>
         <li><a href="">Facebook</a></li>
         <li><a href="">Instagram</a></li>
-        <li><a href="">Tiktok</a></li>
-        <li><a href="">Youtube</a></li>
+        <li><a href="https://www.tiktok.com/@lacerezadelpastel.perris/video/7528872394623077646?lang=es" target="_blank">Tiktok</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PWTA1HB6aAw" target="_blank">Youtube</a></li>
     </ul>
 
+    <!--El atributo target="_blank" abre los enlaces en una nueva pagina-->
+    
+    <p>2025 Cafeteria Muffin - Todos los derechos reservados</p>
   </footer>
 </body>
 </html>
