@@ -47,8 +47,3 @@ El sitio se desplegó con GitHub Pages y es accesible de manera pública.
 
 
 
----
-
-## ✅ Conclusión  
-Este proyecto permitió poner en práctica los fundamentos de HTML, comprender el uso de estructuras semánticas, mejorar la organización del contenido, y aprender a usar Git y GitHub para llevar control de versiones y publicar proyectos web.  
-El resultado es una página sencilla pero funcional que demuestra el uso correcto de los elementos solicitados.
